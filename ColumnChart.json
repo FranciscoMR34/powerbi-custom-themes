@@ -1,0 +1,72 @@
+{
+	"visualStyles": {
+		"clusteredColumnChart": {
+			"*": {
+				"general": [{
+					"responsive": true
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "",
+					"labelColor": { "solid": { "color": "#E1E5E6"}},
+					"fontFamily": "Segoe UI",
+					"fontSize": 10
+				}],
+				"categoryAxis": [{
+					"show": true,
+					"labelColor": { "solid": { "color": "#373A36"}},
+					"fontSize": 14,
+					"fontFamily": "Segoe UI",
+					"preferredCategoryWidth": 30,
+					"maxMarginFactor": 28,
+					"innerPadding": 22,
+					"concatenateLabels": true,
+					"showAxisTitle": false,
+					"axisStyle": "showUnitOnly",
+					"titleColor": { "solid": { "color": "#E1E5E6"}},
+					"titleText": "asdf",
+					"titleFontSize": 12,
+					"titleFontFamily": "Segoe UI"
+				}],
+				"valueAxis": [{
+					"show": true,
+					"position": "Right",
+					"axisScale": "Linear",
+					"start": 0,
+					"end": 10,
+					"labelColor": { "solid": { "color": "#373A36"}},
+					"fontSize": 14,
+					"fontFamily": "Segoe UI",
+					"showAxisTitle": false,
+					"axisStyle": "showUnitOnly",
+					"color": { "solid": { "color": "373A36"}},
+					"titleText": "asdf",
+					"titleFontSize": 12,
+					"titleFontFamily": "Segoe UI",
+					"gridlineShow": true,
+					"gridlineColor": { "solid": { "color": "#E1E5E6"}},
+					"gridlineThickness": 2,
+					"gridlineStyle": "dashed"
+				}],
+				"dataPoint": [{
+					"defaultColor": { "solid": { "color": "#373A36"}}
+				}],
+				"labels": [{
+					"show": false,
+					"color": { "solid": { "color": "#EEEEEE"}},
+					"labelPosition": "OutsideEnd",
+					"fontSize": 11,
+					"fontFamily": "Segoe UI",
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#909288"}},
+					"backgroundTransparency": 30
+				}],		
+				"plotArea": [{
+					"transparency": 20
+				}]
+			}
+		}
+	}
+}

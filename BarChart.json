@@ -1,0 +1,91 @@
+{
+    "visualStyles": {
+        "barChart": {
+            "*": {
+                "title": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI semibold",
+                        "fontSize": 16,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "alignment": "left",
+                        "text": "Introduzca un titulo"
+                    }
+                ],
+                "subTitle": [
+                    {
+                        "show": true,
+                        "alignment": "left",
+                        "fontFamily": "Segoe UI semibold",
+                        "fontSize": 12,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        },
+                        "text": "Introduzca subtitulo"
+                    }
+                ],
+                "divider": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#C7C8C7"
+                            }
+                        },
+                        "ignorePadding": false,
+                        "style": "solid",
+                        "width": 1
+                    }
+                ],
+                "padding": [
+                    {
+                        "top": 10,
+                        "bottom": 10,
+                        "left": 10,
+                        "right": 10
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "axisType": "Scalar",
+                        "axisStyle": "showUnitOnly",
+                        "fontFamily": "Segoe UI semibold",
+                        "fontSize": 11,
+                        "gridlineShow": false,
+                        "innerPadding": 10,
+                        "showAxisTitle": false
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "showAxisTitle": false,
+                        "axisStyle": "showUnitOnly",
+                        "fontFamily": "Segoe",
+                        "fontSize": 11,
+                        "gridlineShow": false,
+                        "scaleToFit": true
+                    }
+                ],
+                "border": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "show": true,
+                        "width": 1,
+                        "radius": 15
+                    }
+                ]
+            }
+        }
+    }
+}

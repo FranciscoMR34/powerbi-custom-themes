@@ -1,0 +1,54 @@
+{
+    "visualStyles": {
+        "pageNavigator": {
+            "*": {
+                "pages": [
+                    {
+                        "showHiddenPages": false
+                    }
+                ],
+                "accentBar": [
+                    {
+                        "$id": "selected",
+                        "show": true,
+                        "position": "Bottom",
+                        "color": {
+                            "solid": {
+                                "color": "#FF5C35"
+                            }
+                        }
+                    }
+                ],
+                "fill": [
+                    {
+                        "$id": "default",
+                        "show": false,
+                        "transparency": 100
+                    }
+                ],
+                "outline": [
+                    {
+                        "$id": "default",
+                        "show": false,
+                        "transparency": 100
+                    }
+                ],
+                "text": [
+                    {
+                        "$id": "selected",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FF5C35"
+                            }
+                        },
+                        "fontSize": 15
+                    },
+                    {
+                        "$id": "default",
+                        "fontSize": 14
+                    }
+                ]
+            }
+        }
+    }
+}

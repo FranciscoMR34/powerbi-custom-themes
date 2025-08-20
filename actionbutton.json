@@ -1,0 +1,156 @@
+{
+    "visualStyles": {
+        "actionButton": {
+            "Filter": {
+                "*": [
+                    {
+                        "showPersonalizeVisualButton": true,
+                        "type": "Canvas",
+                        "bookmark": "Page1"
+                    }
+                ],
+                "text": [
+                    {
+                        "$id": "default",
+                        "show": true,
+                        "text": "Filtros",
+                        "fontSize": 18,
+                        "verticalAlignment": "middle",
+                        "horizontalAlignment": "left",
+                        "fontFamily": "Segoe UI semibold",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FF7D5D"
+                            }
+                        },
+                        "leftMargin": 36
+                    },
+                    {
+                        "$id": "hover",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    }
+                ],
+                "icon": [
+                    {
+                        "$id": "default",
+                        "show": true,
+                        "shapeType": "custom",
+                        "image": {
+                            "name": "Filter",
+                            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23FF7D5D%22%20class%3D%22size-6%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20d%3D%22M3.792%202.938A49.069%2049.069%200%200%201%2012%202.25c2.797%200%205.54.236%208.209.688a1.857%201.857%200%200%201%201.541%201.836v1.044a3%203%200%200%201-.879%202.121l-6.182%206.182a1.5%201.5%200%200%200-.439%201.061v2.927a3%203%200%200%201-1.658%202.684l-1.757.878A.75.75%200%200%201%209.75%2021v-5.818a1.5%201.5%200%200%200-.44-1.06L3.13%207.938a3%203%200%200%201-.879-2.121V4.774c0-.897.64-1.683%201.542-1.836Z%22%20clip-rule%3D%22evenodd%22%20%2F%3E%3C%2Fsvg%3E",
+                            "scaling": "Normal"
+                        },
+                        "iconSize": 28,
+                        "placement": "custom",
+                        "leftMargin": 8
+                    },
+                    {
+                        "$id": "hover",
+                        "image": {
+                            "name": "filtro",
+                            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22white%22%20class%3D%22size-6%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20d%3D%22M3.792%202.938A49.069%2049.069%200%200%201%2012%202.25c2.797%200%205.54.236%208.209.688a1.857%201.857%200%200%201%201.541%201.836v1.044a3%203%200%200%201-.879%202.121l-6.182%206.182a1.5%201.5%200%200%200-.439%201.061v2.927a3%203%200%200%201-1.658%202.684l-1.757.878A.75.75%200%200%201%209.75%2021v-5.818a1.5%201.5%200%200%200-.44-1.06L3.13%207.938a3%203%200%200%201-.879-2.121V4.774c0-.897.64-1.683%201.542-1.836Z%22%20clip-rule%3D%22evenodd%22%20%2F%3E%3C%2Fsvg%3E"
+                        }
+                    }
+                ],
+                "fill": [
+                    {
+                        "$id": "default",
+                        "show": true,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#FBEDEF"
+                            }
+                        },
+                        "transparency": 0
+                    },
+                    {
+                        "$id": "hover",
+                        "fillColor": {
+                            "solid": {
+                                "color": "#FF7D5D"
+                            }
+                        }
+                    }
+                ],
+                "shape": [
+                    {
+                        "tileShape": "rectangleRoundedByPixel"
+                    }
+                ]
+            },
+            "Columns": {
+                "text": [
+                    {
+                        "$id": "default",
+                        "show": true,
+                        "text": "Columnas",
+                        "fontSize": 18,
+                        "verticalAlignment": "middle",
+                        "horizontalAlignment": "left",
+                        "fontFamily": "Segoe UI semibold",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#5B6480"
+                            }
+                        },
+                        "leftMargin": 40
+                    },
+                    {
+                        "$id": "hover",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    }
+                ],
+                "icon": [
+                    {
+                        "$id": "default",
+                        "show": true,
+                        "shapeType": "custom",
+                        "image": {
+                            "name": "Filter",
+                            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%235B6480%22%20class%3D%22size-6%22%3E%3Cpath%20d%3D%22M15%203.75H9v16.5h6V3.75ZM16.5%2020.25h3.375c1.035%200%201.875-.84%201.875-1.875V5.625c0-1.036-.84-1.875-1.875-1.875H16.5v16.5ZM4.125%203.75H7.5v16.5H4.125a1.875%201.875%200%200%201-1.875-1.875V5.625c0-1.036.84-1.875%201.875-1.875Z%22%20%2F%3E%3C%2Fsvg%3E",
+                            "scaling": "Normal"
+                        },
+                        "iconSize": 28,
+                        "placement": "custom",
+                        "leftMargin": 8
+                    },
+                    {
+                        "$id": "hover",
+                        "image": {
+                            "name": "filter",
+                            "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22white%22%20class%3D%22size-6%22%3E%3Cpath%20d%3D%22M15%203.75H9v16.5h6V3.75ZM16.5%2020.25h3.375c1.035%200%201.875-.84%201.875-1.875V5.625c0-1.036-.84-1.875-1.875-1.875H16.5v16.5ZM4.125%203.75H7.5v16.5H4.125a1.875%201.875%200%200%201-1.875-1.875V5.625c0-1.036.84-1.875%201.875-1.875Z%22%20%2F%3E%3C%2Fsvg%3E"
+                        }
+                    }
+                ],
+                "fill": [
+                    {
+                        "$id": "default",
+                        "show": true,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#B5C8FF"
+                            }
+                        },
+                        "transparency": 0
+                    },
+                    {
+                        "$id": "hover",
+                        "fillColor": {
+                            "solid": {
+                                "color": "#454C62"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

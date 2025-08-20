@@ -1,7 +1,12 @@
 {
     "visualStyles": {
-        "clusteredBarChart": {
+        "clusteredColumnChart": {
             "*": {
+                "stylePreset": [
+                    {
+                        "name": ""
+                    }
+                ],
                 "title": [
                     {
                         "show": true,
@@ -48,7 +53,7 @@
                 "padding": [
                     {
                         "top": 15,
-                        "bottom": 20,
+                        "bottom": 15,
                         "left": 15,
                         "right": 15
                     }
@@ -63,71 +68,44 @@
                         },
                         "radius": 15
                     }
-                ],
-                "legend": [
-                    {
-                        "show": false
-                    }
                 ]
             },
-            "Paged": {
+            "Executive": {
                 "categoryAxis": [
                     {
                         "showAxisTitle": false,
-                        "fontSize": 14
+                        "fontSize": 12
                     }
                 ],
                 "valueAxis": [
                     {
                         "show": false,
-                        "showAxisTitle": false
+                        "showAxisTitle": true
                     }
                 ],
-                "labels": [
+                "visualHeader": [
                     {
                         "show": true,
-                        "showAll": true,
-                        "fontSize": 13,
-                        "labelDisplayUnits": 1,
-                        "labelPrecision": 1
-                    }
-                ]
-            },
-            "Custom": {
-                "categoryAxis": [
-                    {
-                        "show": true,
-                        "fontSize": 12,
-                        "showAxisTitle": false
-                    }
-                ],
-                "valueAxis": [
-                    {
-                        "show": false,
-                        "showAxisTitle": false,
-                        "gridlineShow": true,
-                        "fontSize": 11,
-                        "labelPrecision": 0
-                    }
-                ],
-                "labels": [
-                    {
-                        "show": true,
-                        "showAll": true,
-                        "fontSize": 12,
-                        "labelDisplayUnits": 1,
-                        "labelPrecision": 0
-                    }
-                ],
-                "background": [
-                    {
-                        "show": true,
-                        "color": {
-                            "solid": {
-                                "color": "#FFFFFF"
-                            }
-                        },
-                        "transparency": 0
+                        "showDrillDownExpandButton": true,
+                        "showDrillDownLevelButton": true,
+                        "showDrillRoleSelector": true,
+                        "showDrillToggleButton": true,
+                        "showDrillUpButton": true,
+                        "showCommentButton": false,
+                        "showCopyVisualImageButton": false,
+                        "showFilterRestatementButton": false,
+                        "showFocusModeButton": false,
+                        "showFollowVisualButton": false,
+                        "showOptionsMenu": false,
+                        "showPersonalizeVisualButton": false,
+                        "showPinButton": false,
+                        "showSeeDataLayoutToggleButton": false,
+                        "showSetAlertButton": false,
+                        "showSmartNarrativeButton": false,
+                        "showTooltipButton": false,
+                        "showVisualErrorButton": false,
+                        "showVisualInformationButton": false,
+                        "showVisualWarningButton": false
                     }
                 ]
             }

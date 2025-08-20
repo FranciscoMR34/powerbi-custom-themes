@@ -1,0 +1,57 @@
+{
+    "visualStyles": {
+        "multiRowCard": {
+            "*": {
+                "dataLabels": [{
+                    "color":{
+                        "solid": {
+                            "color":"#000000"
+                        }
+                    },
+                    "fontSize": 14,
+                    "fontFamily": "Segoe UI"
+                }],
+                "categoryLabels": [{
+                    "show": true,
+                    "color":{
+                        "solid": {
+                            "color":"#C7C8C7"
+                        }
+                    },
+                    "fontSize": 12,
+                    "fontFamily": "Segoe UI"
+                }],
+                "cardTitle": [{
+                    "color":{
+                        "solid": {
+                            "color":"#000000"
+                        }
+                    },
+                    "fontSize": 14,
+                    "fontFamily": "Segoe UI"
+                }],
+                "card": [{
+                    "outlineColor":{
+                        "solid": {
+                            "color":"#F5F5F5"
+                        }
+                    },
+                    "outlineWeight": 2,
+                    "barShow": true,
+                    "barColor":{
+                        "solid": {
+                            "color":"#C7C8C7"
+                        }
+                    },
+                    "barWeight": 2,
+                    "cardPadding": 20,
+                    "cardBackground":{
+                        "solid": {
+                            "color":"#F5F5F5"
+                        }
+                    }
+                }]
+            }
+        }
+    }
+}

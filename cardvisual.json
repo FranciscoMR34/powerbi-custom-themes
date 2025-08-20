@@ -1,0 +1,151 @@
+{
+    "visualStyles": {
+        "cardVisual": {
+            "*": {
+                "background": [
+                    {
+                        "show": false
+                    }
+                ],
+                "padding": [
+                    {
+                        "top": 0,
+                        "bottom": 0,
+                        "left": 0,
+                        "right": 0
+                    }
+                ],
+                "layout": [
+                    {
+                        "alignment": "center",
+                        "borderColor": {
+                            "solid": {
+                                "color": "#E5E1E6"
+                            }
+                        },
+                        "borderWidth": 1,
+                        "calloutSize": 22,
+                        "rectangleRoundedCurve": 20,
+                        "style": "Cards"
+                    }
+                ]
+            },
+            "Label": {
+                "value": [
+                    {
+                        "$id": "default",
+                        "fontSize": 18,
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ],
+                "referenceLabelValue": [
+                    {
+                        "$id": "default",
+                        "valueFontSize": 12,
+                        "valueFontColor": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        }
+                    }
+                ],
+                "label": [
+                    {
+                        "$id": "default",
+                        "show": true
+                    }
+                ],
+                "referenceLabel": [
+                    {
+                        "$id": "default",
+                        "backgroundShow": false
+                    }
+                ],
+                "referenceLabelTitle": [
+                    {
+                        "$id": "default",
+                        "show": false
+                    }
+                ],
+                "referenceLabelLayout": [
+                    {
+                        "$id": "default",
+                        "outerPadding": 5
+                    }
+                ],
+                "divider": [
+                    {
+                        "$id": "default",
+                        "show": false
+                    }
+                ],
+                "fillCustom": [
+                    {
+                        "show": false
+                    }
+                ],
+                "outline": [
+                    {
+                        "show": false
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": false
+                    }
+                ],
+                "accentBar": [
+                    {
+                        "$id": "default",
+                        "show": false,
+                        "position": "Right",
+                        "color": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Matrix cards": {
+                "value": [
+                    {
+                        "$id": "default",
+                        "fontSize": 24
+                    },
+                    {
+                        "$id": "selected",
+                        "fontSize": 32
+                    }
+                ]
+            },
+            "Defined": {
+				"labels": [
+					 {"$id": "default","color": { "solid": { "color": "#000000"}}},
+					{"$id": "default","fontSize": 9},
+					{"$id": "default","fontFamily": "Segoe UI semibold"}
+				],
+				"categoryLabels": [{
+					"show": true,
+					"color": { "solid": { "color": "#000000"}},
+					"fontSize": 9,
+					"fontFamily": "Segoe UI semibold"
+				}],
+				"background": [{
+					"color": {"solid": {"color": "#F5F5F5"}},
+                    "transparency": 0
+				}],
+			    "title": [{
+			      "fontColor": { "solid": { "color": "#000000" } },
+			      "background": { "solid": { "color": "#E1E5E6" } },
+			      "alignment": "left",
+			      "fontSize": 10,
+			      "fontFamily": "Segoe UI semibold"
+			    }],
+			    "border": [{
+                  "color":{"solid": {"color":"#000000"}}
+			    }]
+			}
+		}
+	}
+}

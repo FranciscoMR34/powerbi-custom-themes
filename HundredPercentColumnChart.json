@@ -1,0 +1,103 @@
+{
+    "dataColors": [
+        "#000000",
+        "#909288",
+        "#C7C8C7",
+        "#FF5C35"
+    ],
+    "visualStyles": {
+        "hundredPercentStackedColumnChart": {
+            "*": {
+                "title": [
+                    {
+                        "show": true,
+                        "text": "Título",
+                        "fontSize": 16,
+                        "alignment": "left",
+                        "fontFamily": "Segoe UI Semibold ",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    }
+                ],
+                "subTitle": [
+                    {
+                        "show": true,
+                        "fontSize": 12,
+                        "fontFamily": "Segoe UI",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        },
+                        "alignment": "left"
+                    }
+                ],
+                "divider": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#C7C8C7"
+                            }
+                        },
+                        "style": "solid",
+                        "ignorePadding": false
+                    }
+                ],
+                "spacing": [
+                    {
+                        "customizeSpacing": false,
+                        "verticalSpacing": 5
+                    }
+                ],
+                "padding": [
+                    {
+                        "bottom": 10,
+                        "left": 10,
+                        "right": 10,
+                        "top": 10
+                    }
+                ],
+                "border": [
+                    {
+                        "radius": 15,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "show": true
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "showAxisTitle": false,
+                        "fontSize": 12,
+                        "axisType": "Scalar",
+                        "axisStyle": "showUnitOnly",
+                        "gridlineShow": false,
+                        "labelDisplayUnits": 0,
+                        "fontFamily": "Segoe UI"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "showAxisTitle": false
+                    }
+                ],
+                "legend": [
+                    {
+                        "showTitle": false,
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 10,
+                        "titleText": "Introduzca título"
+                    }
+                ]
+            }
+        }
+    }
+}

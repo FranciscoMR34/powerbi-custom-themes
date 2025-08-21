@@ -1,0 +1,40 @@
+{
+    "visualStyles": {
+        "textSlicer": {
+            "*": {
+                "background": [
+                    {
+                        "show": false
+                    }
+                ],
+                "title": [
+                    {
+                        "fontSize": 14,
+                        "fontFamily": "Segoe UI semibold",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        }
+                    }
+                ],
+                "inputText": [
+                    {
+                        "placeholder": "Filtrar [...] por palabra clave",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#C7C8C7"
+                            }
+                        },
+                        "fontSize": 12
+                    }
+                ],
+                "*": [
+                    {
+                        "multiselect": true
+                    }
+                ]
+            }
+        }
+    }
+}

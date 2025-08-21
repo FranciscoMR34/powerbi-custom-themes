@@ -1,0 +1,104 @@
+{
+    "name": "TableTemplate",
+    "visualStyles": {
+        "tableEx": {
+            "*": {},
+            "Custom": {
+                "grid": [
+                    {
+                        "gridVertical": true,
+                        "gridVerticalColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "gridVerticalWeight": 1,
+                        "gridHorizontal": true,
+                        "gridHorizontalColor": {
+                            "solid": {
+                                "color": "#C7C8C7"
+                            }
+                        },
+                        "gridHorizontalWeight": 1,
+                        "rowPadding": 5,
+                        "outlineColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "outlineWeight": 2,
+                        "textSize": 14,
+                        "imageHeight": 100
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "backColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "outline": "Frame",
+                        "autoSizeColumnWidth": false,
+                        "fontFamily": "Segoe UI semibold",
+                        "fontSize": 14,
+                        "alignment": "Left",
+                        "wordWrap": true
+                    }
+                ],
+                "values": [
+                    {
+                        "fontColorPrimary": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "backColorPrimary": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "fontColorSecondary": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "backColorSecondary": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "outline": "Frame",
+                        "urlIcon": true,
+                        "wordWrap": true,
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 12
+                    }
+                ],
+                "total": [
+                    {
+                        "totals": false,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "backColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "outline": "Frame",
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 14
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "name": "default",
+    "visualStyles": {
+        "lineClusteredColumnComboChart": {
+            "*": {
+                "title": [
+                    {
+                        "show": true,
+                        "fontSize": 16,
+                        "fontFamily": "Segoe UI semibold",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "alignment": "left",
+                        "text": "Título"
+                    }
+                ],
+                "subTitle": [
+                    {
+                        "show": true,
+                        "fontSize": 12,
+                        "fontFamily": "Segoe UI",
+                        "text": "Subtitulo",
+                        "alignment": "left",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        }
+                    }
+                ],
+                "divider": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#C7C8C7"
+                            }
+                        },
+                        "ignorePadding": false,
+                        "style": "solid",
+                        "width": 1,
+                        "show": true
+                    }
+                ],
+                "padding": [
+                    {
+                        "top": 10,
+                        "left": 5,
+                        "right": 10,
+                        "bottom": 10
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "axisStyle": "showUnitOnly",
+                        "axisType": "Scalar",
+                        "fontFamily": "Segoe UI",
+                        "fontSize": 12,
+                        "showAxisTitle": false,
+                        "gridlineShow": false
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "showAxisTitle": false,
+                        "fontSize": 12,
+                        "fontFamily": "Segoe UI"
+                    }
+                ],
+                "border": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "show": true,
+                        "radius": 15,
+                        "width": 2
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "legendMarkerRendering": "lineAndMarker",
+                        "position": "Top",
+                        "matchLineColor": true,
+                        "fontFamily": "Segoe UI semibold",
+                        "fontSize": 10,
+                        "showTitle": true,
+                        "titleText": ""
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "lineStyle": "solid",
+                        "strokeLineJoin": "round",
+                        "strokeWidth": 3,
+                        "lineChartType": "smooth"
+                    }
+                ],
+                "markers": [
+                    {
+                        "borderColorMatchFill": true,
+                        "borderWidth": 1
+                    }
+                ]
+            }
+        }
+    }
+}

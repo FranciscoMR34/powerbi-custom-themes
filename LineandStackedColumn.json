@@ -1,0 +1,89 @@
+{
+    "name": "default",
+    "visualStyles": {
+        "lineStackedColumnComboChart": {
+            "*": {
+                "title": [
+                    {
+                        "show": true,
+                        "fontFamily": "Segoe UI Semibold",
+                        "alignment": "left",
+                        "fontSize": 16,
+                        "text": "Introduzca un Título",
+                        "titleWrap": false
+                    }
+                ],
+                "padding": [
+                    {
+                        "top": 10,
+                        "bottom": 10,
+                        "left": 5,
+                        "right": 5
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "width": 2,
+                        "radius": 15
+                    }
+                ],
+                "subTitle": [
+                    {
+                        "show": true
+                    }
+                ],
+                "divider": [
+                    {
+                        "show": true,
+                        "ignorePadding": false,
+                        "color": {
+                            "solid": {
+                                "color": "#C7C8C7"
+                            }
+                        },
+                        "style": "solid",
+                        "width": 1
+                    }
+                ],
+                "spacing": [
+                    {
+                        "verticalSpacing": 8
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "axisStyle": "showUnitOnly",
+                        "axisType": "Scalar",
+                        "showAxisTitle": false,
+                        "fontSize": 11,
+                        "fontFamily": "Segoe UI semibold"
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "alignZeros": true,
+                        "axisStyle": "showUnitOnly",
+                        "showAxisTitle": false,
+                        "fontSize": 11,
+                        "fontFamily": "Segoe UI semibold"
+                    }
+                ],
+                "legend": [
+                    {
+                        "position": "Top",
+                        "legendMarkerRendering": "markerCircleDefault",
+                        "matchLineColor": true,
+                        "show": false,
+                        "showTitle": false
+                    }
+                ]
+            }
+        }
+    }
+}

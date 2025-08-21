@@ -1,0 +1,225 @@
+{
+    "visualStyles": {
+        "advancedSlicerVisual": {
+            "*": {
+                "title": [
+                    {
+                        "show": false
+                    }
+                ],
+                "header": [
+                    {
+                        "show": false,
+                        "fontSize": 12,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#C7C8C7"
+                            }
+                        }
+                    }
+                ],
+                "slicertext": [
+                    {
+                        "fontSize": 12,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        },
+                        "fontFamily": "Segoe UI"
+                    }
+                ],
+                "selection": [
+                    {
+                        "fontcolor": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        },
+                        "bold": true
+                    }
+                ],
+                "inputbox": [
+                    {
+                        "fontSize": 12,
+                        "fontcolor": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        },
+                        "bordercolor": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        }
+                    }
+                ],
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        },
+                        "transparency": 0,
+                        "show": true
+                    }
+                ],
+                "border": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        },
+                        "width": 1,
+                        "radius": 6,
+                        "show": true
+                    }
+                ],
+                "padding": [
+                    {
+                        "left": 2,
+                        "right": 2
+                    }
+                ]
+            },
+            "filter tape": {
+                "background": [
+                    {
+                        "show": true
+                    }
+                ],
+                "shapeCustomRectangle": [
+                    {
+                        "rectangleRoundedCurve": 15,
+                        "tileShape": "rectangleRounded"
+                    }
+                ],
+                "layout": [
+                    {
+                        "backgroundFillColor": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        },
+                        "borderStyle": "solid",
+                        "borderColor": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        },
+                        "style": "Cards",
+                        "cellPadding": 5,
+                        "columnPadding": 5,
+                        "gridlineColor": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        },
+                        "alignment": "center",
+                        "maxTiles": 2,
+                        "calloutSize": 14,
+                        "columnCount": 2,
+                        "lineColor": {
+                            "solid": {
+                                "color": "#f5f5f5"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Custom": {
+                "layout": [
+                    {
+                        "columnCount": 4,
+                        "rowCount": 1,
+                        "maxTiles": 2,
+                        "style": "Cards",
+                        "alignment": "center",
+                        "borderColor": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        },
+                        "borderStyle": "solid",
+                        "calloutSize": 14,
+                        "cellPadding": 10,
+                        "columnPadding": 5,
+                        "rectangleRoundedCurve": 10,
+                        "rowPadding": 5,
+                        "backgroundFillColor": {
+                            "solid": {
+                                "color": "#E1E5E6"
+                            }
+                        },
+                        "orientation": 0
+                    }
+                ],
+                "overFlow": [
+                    {
+                        "overFlowDirection": 1,
+                        "overFlowStyle": 0
+                    }
+                ],
+                "values": [
+                    {
+                        "horizontalAlignment": "center",
+                        "fontSize": 18,
+                        "verticalAlignment": "middle",
+                        "alignment": "center"
+                    }
+                ],
+                "padding": [
+                    {
+                        "left": 0,
+                        "right": 0
+                    }
+                ],
+                "selectionIcon": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "overlayToggle": true,
+                        "showIconByState": true,
+                        "show": false
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        }
+                    }
+                ],
+                "shapeCustomRectangle": [
+                    {
+                        "rectangleRoundedCurve": 10,
+                        "tileShape": "rectangleRounded"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "name": "default",
+    "visualStyles": {
+        "lineChart": {
+            "*": {
+                "title": [
+                    {
+                        "show": true,
+                        "textColor": "#000000",
+                        "fontSize": 16,
+                        "alignment": "left",
+                        "fontFamily": "Segoe UI Semibold"
+                    }
+                ],
+                "subTitle": [
+                    {
+                        "show": true,
+                        "text": "Subtitle example",
+                        "fontSize": 12,
+                        "fontFamily": "Segoe UI",
+                        "alignment": "left",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#909288"
+                            }
+                        }
+                    }
+                ],
+                "divider": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#C7C8C7"
+                            }
+                        },
+                        "thickness": 1,
+                        "ignorePadding": false
+                    }
+                ],
+                "spacing": [
+                    {
+                        "spaceBelowTitle": 5,
+                        "spaceBelowSubTitle": 10,
+                        "spaceBelowTitleArea": 5
+                    }
+                ],
+                "padding": [
+                    {
+                        "top": 15,
+                        "bottom": 15,
+                        "left": 15,
+                        "right": 15
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#F5F5F5"
+                            }
+                        },
+                        "radius": 15
+                    }
+                ]
+            },
+            "Executive": {
+                "categoryAxis": [
+                    {
+                        "showAxisTitle": false,
+                        "fontSize": 12
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": false,
+                        "showAxisTitle": false
+                    }
+                ],
+                "lineStyles": [
+                    {
+                        "strokeWidth": 2,
+                        "lineStyle": "solid",
+                        "lineChartType": "smooth",
+                        "interpolationSmooth": "monotoneX",
+                        "interpolationSmoothParam": 1,
+                        "showMarker": true,
+                        "markerShape": "circle",
+                        "markerSize": 4,
+                        "showMarkerByDefault": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "fontSize": 12,
+                        "labelDisplayUnits": 1,
+                        "labelPosition": "Above"
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": false
+                    }
+                ]
+            },
+            "Custom": {
+				"legend": [{
+					"show": false,
+					"position": "Top",
+					"labelColor": { "solid": { "color": "#C7C8C7"}},
+					"fontFamily": "Segoe UI",
+					"fontSize": 10,
+					"legendMarkerRendering": "markerOnly",
+					"matchLineColor": false
+				}],
+				"categoryAxis": [{
+					"labelColor": { "solid": { "color": "#C7C8C7"}},
+					"fontSize": 14,
+					"fontFamily": "Segoe UI",
+					"axisStyle": "showTitleOnly",
+					"titleColor": { "solid": { "color": "#C7C8C7"}},
+					"titleFontSize": 12,
+					"titleFontFamily": "Segoe UI",
+                    "showAxisTitle": false
+				}],
+				"valueAxis": [{
+					"labelColor": { "solid": { "color": "#C7C8C7"}},
+					"fontSize": 14,
+					"fontFamily": "Segoe UI",
+					"axisStyle": "showUnitOnly",
+					"titleFontSize": 12,
+					"titleFontFamily": "Segoe UI",
+					"gridlineColor": { "solid": { "color": "#C7C8C7"}},
+					"gridlineThickness": 1,
+					"gridlineStyle": "dotted",
+                    "show": false,
+                    "showAxisTitle": false
+				}],
+				"dataPoint": [{
+					"defaultColor": { "solid": { "color": "#000000"}}
+				}],
+				"labels": [{
+					"show": true,
+					"color": { "solid": { "color": "#FFFFFF"}},
+					"fontSize": 11,
+					"fontFamily": "Segoe UI",
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#FFFFFF"}},
+					"backgroundTransparency": 0
+				}],	
+				"lineStyles": [{
+					"strokeWidth": 2,
+					"strokeLineJoin": "round",
+					"lineStyle": "solid",
+					"showMarker": true,
+					"markerShape": "diamond",
+					"markerSize": 10,
+					"markerColor": { "solid": { "color": "#C7C8C7"}},
+                    "interpolationSmooth": "monotoneX",
+                    "lineChartType": "smooth"
+				}],
+				"plotArea": [{
+					"transparency": 20
+				}]
+			}
+		}
+	}
+}
